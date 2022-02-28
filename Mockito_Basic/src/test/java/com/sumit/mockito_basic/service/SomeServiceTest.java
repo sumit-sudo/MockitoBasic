@@ -15,11 +15,13 @@ class SomeDaoRepoSTUBImpl implements SomeDaoRepo
 	 *  method here
 	 * 2) Suppose there is requirement to add new method inside repo interface then
 	 * 	we will have to modify here as well as it is implementing Repo interface.
+	 * 
+	 * 
 	 */
 
 	@Override
 	public int[] retrieveAllData() {
-		// TODO Auto-generated method stub
+		
 		return new int[] {10,20,30,40};
 	}
 	
